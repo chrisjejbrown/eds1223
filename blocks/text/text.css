@@ -1,1 +1,38 @@
-.cbheader {background-color: rgb(220, 245, 223);}
+/*! CSS Used from: https://www.reebok.com/_next/static/css/494aaecbe5daee4f3730.css */
+@media (max-width: 991.98px) {
+    body ::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  *,
+  :after,
+  :before {
+    box-sizing: border-box;
+  }
+  .banner--2Rmhc video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 100vh;
+  }
+  /*! CSS Used from: https://ui.powerreviews.com/tag-builds/10447/4.1/css/styles.css */
+  *,
+  :after,
+  :before {
+    --pr-translate-x: 0;
+    --pr-translate-y: 0;
+    --pr-rotate: 0;
+    --pr-skew-x: 0;
+    --pr-skew-y: 0;
+    --pr-scale-x: 1;
+    --pr-scale-y: 1;
+    --pr-scroll-snap-strictness: proximity;
+    --pr-ring-offset-width: 0px;
+    --pr-ring-offset-color: #fff;
+    --pr-ring-color: rgba(59, 130, 246, 0.5);
+    --pr-ring-offset-shadow: 0 0 transparent;
+    --pr-ring-shadow: 0 0 transparent;
+    --pr-shadow: 0 0 transparent;
+    --pr-shadow-colored: 0 0 transparent;
+  }
+  
