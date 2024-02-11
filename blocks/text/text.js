@@ -13,7 +13,7 @@ export default function decorate(block) {
   var myHTMLstart = "<h1>";
   var myHTMLend = "</h1>";
 
-  block = myHTMLstart + m[1] +  myHTMLend;
+  block.innerHTML = myHTMLstart + m[1] +  myHTMLend;
   console.log(block);
   }
     
