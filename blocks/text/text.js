@@ -10,7 +10,7 @@ export default function decorate(block) {
   
  /* console.log(result);*/
 
-  block.outerHTML = '';
+  delete block.outerHTML;
   var myHTMLstart = "<h1>";
   var myHTMLend = "</h1>";
 
