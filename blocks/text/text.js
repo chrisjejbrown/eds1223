@@ -8,7 +8,12 @@ export default function decorate(block) {
     result.push(m[1]);
   }
   
-  console.log(result);
+ /* console.log(result);*/
+
+  var myHTMLstart = "<h1>";
+  var myHTMLend = "</h1>";
+
+  block = myHTMLstart + m[1] +  myHTMLend;
 
   }
     
