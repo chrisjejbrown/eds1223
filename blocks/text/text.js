@@ -14,7 +14,9 @@ export default function decorate(block) {
   var myHTMLstart = "<h1>";
   var myHTMLend = "</h1>";
 
-  block.outerHTML = myHTMLstart + result[0] +  myHTMLend;
+  var video = '<video src="https://reebok.bynder.com/m/4f85f9f282e0f0ae/original/24SS_Create-What-Makes-You_HP-Masthead_DT.mp4" preload="auto" autoplay="" loop="" playsinline="" webkit-playsinline="" x5-playsinline="" style="width: 100%; height: 100%;"></video>';
+
+  block.outerHTML = video;
   console.log(block.outerHTML);
   }
     
