@@ -14,6 +14,6 @@ export default function decorate(block) {
   var myHTMLend = "</h1>";
 
   block = myHTMLstart + m[1] +  myHTMLend;
-
+  console.log(block);
   }
     
