@@ -10,10 +10,11 @@ export default function decorate(block) {
   
  /* console.log(result);*/
 
+  block.textContent = '';
   var myHTMLstart = "<h1>";
   var myHTMLend = "</h1>";
 
   block.innerHTML = myHTMLstart + result[0] +  myHTMLend;
-  console.log(block);
+  console.log(block.innerHTML);
   }
     
